@@ -91,3 +91,5 @@ Dataset asli dirujuk dari:
 1. **IndQNER**: *Indonesian Quranic Named Entity Recognition*
 2. **IndQEL**: *Indonesian Quranic Entity Linking*
 "# IndQNER-EL-Beta" 
+"#IndQNER-EL-Beta" 
+"#IndQNER-EL-Beta" 
