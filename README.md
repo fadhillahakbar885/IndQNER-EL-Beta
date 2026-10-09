@@ -4,21 +4,21 @@ Proyek penelitian pengayaan dan penyelarasan dataset **IndQNER** (*Indonesian Qu
 
 ---
 
-## 📌 Ringkasan Hasil Pengayaan & Audit Integritas
+## Ringkasan Hasil Pengayaan & Audit Integritas
 
-| Metrik Dataset | IndQNER Asli (`train.txt`) | IndQNER Revisi (`train.txt`) | Delta (Perubahan) | Status Integritas |
+| Metrik Dataset | IndQNER Asli (`train.txt`) | IndQNER Revisi (`train.txt`) | Delta (Perubahan) | Status |
 | :--- | :---: | :---: | :---: | :--- |
-| **Total Baris** | 51.570 | 51.570 | **0** | ✅ Identik 100% |
-| **Total Token Kata** | 49.076 | 49.076 | **0** | ✅ Preservasi Korpus Kata |
-| **Entitas Baru (`B-*` Span)** | 2.007 | 2.095 | **+88 span** | 🚀 Entitas Baru Terinjeksi |
-| **Token Berlabel Entitas** | 2.305 | 2.410 | **+105 token** | 🚀 Bermutasi dari status `O` |
+| **Total Baris** | 51.570 | 51.570 | **0** | Identik 100% |
+| **Total Token Kata** | 49.076 | 49.076 | **0** | Preservasi Korpus Kata |
+| **Entitas Baru (`B-*` Span)** | 2.007 | 2.095 | **+88 span** | Entitas Baru Terinjeksi |
+| **Token Berlabel Entitas** | 2.305 | 2.410 | **+105 token** | Mutasi dari status `O` |
 | **Token Non-Entitas (`O`)** | 46.771 | 46.666 | **-105 token** | Berkurang proporsional |
-| **Label Asli Terhapus/Tertimpa**| 0 | 0 | **0** | 🛡️ **Zero Deletion Guarantee** |
-| **Split `dev.txt` & `test.txt`** | — | — | **0 bit diff** | ✅ MD5 Checksum Identik 100% |
+| **Label Asli Terhapus/Tertimpa**| 0 | 0 | **0** | **Zero Deletion Guarantee** |
+| **Split `dev.txt` & `test.txt`** | — | — | **0 bit diff** | MD5 Checksum Identik 100% |
 
 ---
 
-## 🗂️ Struktur Direktori Proyek
+## Struktur Direktori Proyek
 
 ```text
 ├── data/
@@ -59,7 +59,7 @@ Proyek penelitian pengayaan dan penyelarasan dataset **IndQNER** (*Indonesian Qu
 
 ---
 
-## 🚀 Cara Menjalankan Pipeline (Reproducibility)
+## Cara Menjalankan Pipeline (Reproducibility)
 
 Jalankan seluruh skrip secara berurutan:
 
@@ -91,5 +91,4 @@ Dataset asli dirujuk dari:
 1. **IndQNER**: *Indonesian Quranic Named Entity Recognition*
 2. **IndQEL**: *Indonesian Quranic Entity Linking*
 "# IndQNER-EL-Beta" 
-"#IndQNER-EL-Beta" 
-"#IndQNER-EL-Beta" 
+
