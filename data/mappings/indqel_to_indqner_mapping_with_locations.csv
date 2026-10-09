@@ -1,0 +1,141 @@
+no,mention,uri,total_count,train_count,val_count,test_count,proposed_label,verified_label,status,location
+1,Allah,http://www.wikidata.org/entity/Q2095353,1315,1063,133,119,Allah,Allah,VERIFIED,"2:7, 2:8, 2:9, 2:10, 2:15, 2:17, 2:19, 2:20, 2:22, 2:23, 2:26, 2:27, 2:28, 2:29, 2:33, 2:45, 2:55, 2:60, 2:61, 2:62, 2:64, 2:67, 2:68, 2:69, 2:70, 2:71, 2:72, 2:73, 2:74, 2:75, 2:76, 2:77, 2:79, 2:80, 2:83, 2:85, 2:88, 2:89, 2:90, 2:91, 2:94, 2:95, 2:96, 2:97, 2:98, 2:101, 2:102, 2:103, 2:105, 2:106, 2:107, 2:109, 2:110, 2:112, 2:113, 2:114, 2:115, 2:116, 2:117, 2:118, 2:120, 2:124, 2:126, 2:132, 2:136, 2:137, 2:138, 2:139, 2:140, 2:143, 2:144, 2:148, 2:149, 2:153, 2:154, 2:156, 2:158, 2:159, 2:161, 2:164, 2:165, 2:167, 2:169, 2:170, 2:172, 2:173, 2:174, 2:176, 2:177, 2:181, 2:182, 2:185, 2:187, 2:189, 2:190, 2:192, 2:193, 2:194, 2:195, 2:196, 2:197, 2:198, 2:199, 2:200, 2:202, 2:203, 2:204, 2:205, 2:206, 2:207, 2:209, 2:210, 2:211, 2:212, 2:213, 2:214, 2:215, 2:216, 2:217, 2:218, 2:219, 2:220, 2:221, 2:222, 2:223, 2:224, 2:225, 2:226, 2:227, 2:228, 2:229, 2:230, 2:231, 2:232, 2:233, 2:234, 2:235, 2:237, 2:238, 2:239, 2:240, 2:242, 2:243, 2:244, 2:245, 2:246, 2:247, 2:248, 2:249, 2:251, 2:252, 2:253, 2:255, 2:256, 2:257, 2:258, 2:259, 2:260, 2:261, 2:262, 2:263, 2:264, 2:265, 2:266, 2:267, 2:268, 2:269, 2:270, 2:271, 2:272, 2:273, 2:275, 2:276, 2:278, 2:279, 2:281, 2:282, 2:283, 2:284, 2:285, 2:286, 3:2, 3:4, 3:5, 3:6, 3:7, 3:9, 3:10, 3:11, 3:13, 3:15, 3:18, 3:19, 3:20, 3:21, 3:23, 3:26, 3:28, 3:29, 3:30, 3:31, 3:32, 3:33, 3:34, 3:36, 3:37, 3:39, 3:40, 3:41, 3:42, 3:45, 3:47, 3:48, 3:49, 3:50, 3:51, 3:52, 3:54, 3:55, 3:57, 3:59, 3:61, 3:62, 3:63, 3:64, 3:66, 3:68, 3:70, 3:73, 3:74, 3:75, 3:76, 3:77, 3:78, 3:79, 3:81, 3:83, 3:84, 3:86, 3:87, 3:89, 3:92, 3:94, 3:95, 3:97, 3:98, 3:99, 3:101, 3:102, 3:103, 3:107, 3:108, 3:109, 3:110, 3:112, 3:113, 3:114, 3:115, 3:116, 3:117, 3:119, 3:120, 3:121, 3:122, 3:123, 3:125, 3:126, 3:128, 3:129, 3:130, 3:132, 3:134, 3:135, 3:137, 3:140, 3:141, 3:142, 3:144, 3:145, 3:146, 3:148, 3:151, 3:152, 3:153, 3:154, 3:155, 3:156, 3:157, 3:158, 3:159, 3:160, 3:162, 3:163, 3:164, 3:165, 3:166, 3:167, 3:169, 3:170, 3:171, 3:172, 3:173, 3:174, 3:176, 3:177, 3:179, 3:180, 3:181, 3:182, 3:183, 3:187, 3:189, 3:190, 3:191, 3:195, 3:198, 3:199, 3:200, 4:1, 4:5, 4:6, 4:9, 4:11, 4:12, 4:13, 4:14, 4:15, 4:16, 4:17, 4:18, 4:19, 4:22, 4:23, 4:24, 4:25, 4:26, 4:27, 4:28, 4:29, 4:30, 4:32, 4:33, 4:34, 4:35, 4:36, 4:37, 4:38, 4:39, 4:40, 4:42, 4:43, 4:45, 4:46, 4:47, 4:48, 4:49, 4:50, 4:52, 4:54, 4:56, 4:58, 4:59, 4:61, 4:62, 4:63, 4:64, 4:69, 4:70, 4:72, 4:73, 4:74, 4:75, 4:76, 4:77, 4:78, 4:79, 4:80, 4:81, 4:82, 4:83, 4:84, 4:85, 4:86, 4:87, 4:88, 4:89, 4:90, 4:92, 4:93, 4:94, 4:95, 4:96, 4:97, 4:99, 4:100, 4:102, 4:103, 4:104, 4:105, 4:106, 4:107, 4:108, 4:109, 4:110, 4:111, 4:113, 4:114, 4:116, 4:118, 4:119, 4:122, 4:123, 4:125, 4:126, 4:127, 4:128, 4:129, 4:130, 4:131, 4:132, 4:133, 4:134, 4:135, 4:136, 4:137, 4:139, 4:140, 4:141, 4:142, 4:143, 4:144, 4:146, 4:147, 4:148, 4:149, 4:150, 4:152, 4:153, 4:155, 4:157, 4:158, 4:160, 4:162, 4:164, 4:165, 4:166, 4:167, 4:168, 4:169, 4:170, 4:171, 4:172, 4:173, 4:175, 4:176, 5:1, 5:2, 5:3, 5:4, 5:6, 5:7, 5:8, 5:9, 5:11, 5:12, 5:13, 5:14, 5:15, 5:16, 5:17, 5:18, 5:19, 5:20, 5:21, 5:23, 5:26, 5:27, 5:28, 5:31, 5:33, 5:34, 5:35, 5:38, 5:39, 5:40, 5:41, 5:42, 5:43, 5:44, 5:45, 5:47, 5:48, 5:49, 5:50, 5:51, 5:52, 5:53, 5:54, 5:55, 5:56, 5:57, 5:59, 5:60, 5:61, 5:64, 5:67, 5:69, 5:71, 5:72, 5:73, 5:74, 5:76, 5:78, 5:80, 5:81, 5:84, 5:85, 5:87, 5:88, 5:89, 5:91, 5:92, 5:93, 5:94, 5:95, 5:96, 5:97, 5:98, 5:99, 5:100, 5:101, 5:103, 5:104, 5:105, 5:106, 5:107, 5:108, 5:109, 5:110, 5:112, 5:114, 5:115, 5:116, 5:117, 5:119, 5:120, 6:1, 6:3, 6:12, 6:14, 6:17, 6:19, 6:21, 6:23, 6:31, 6:33, 6:34, 6:35, 6:36, 6:37, 6:39, 6:40, 6:41, 6:42, 6:43, 6:45, 6:46, 6:47, 6:50, 6:51, 6:53, 6:56, 6:57, 6:58, 6:62, 6:64, 6:70, 6:71, 6:80, 6:81, 6:88, 6:90, 6:91, 6:93, 6:94, 6:95, 6:96, 6:99, 6:100, 6:101, 6:102, 6:107, 6:108, 6:109, 6:111, 6:114, 6:116, 6:118, 6:119, 6:121, 6:124, 6:125, 6:128, 6:130, 6:136, 6:137, 6:138, 6:139, 6:140, 6:141, 6:142, 6:144, 6:145, 6:148, 6:150, 6:151, 6:152, 6:157, 6:159, 6:162, 6:164, 7:12, 7:13, 7:15, 7:18, 7:19, 7:24, 7:25, 7:26, 7:28, 7:29, 7:30, 7:32, 7:33, 7:37, 7:38, 7:43, 7:44, 7:45, 7:49, 7:50, 7:54, 7:56, 7:59, 7:62, 7:65, 7:69, 7:70, 7:71, 7:73, 7:74, 7:77, 7:85, 7:86, 7:87, 7:89, 7:99, 7:101, 7:105, 7:128, 7:131, 7:140, 7:156, 7:158, 7:164, 7:169, 7:172, 7:178, 7:179, 7:180, 7:185, 7:186, 7:187, 7:188, 7:189, 7:190, 7:191, 7:194, 7:195, 7:196, 7:197, 7:200, 7:201, 10:3, 10:4, 10:5, 10:6, 10:10, 10:11, 10:16, 10:17, 10:18, 10:20, 10:21, 10:22, 10:23, 10:25, 10:26, 10:27, 10:29, 10:30, 10:31, 10:32, 10:34, 10:35, 10:36, 10:37, 10:38, 10:44, 10:45, 10:46, 10:47, 10:49, 10:53, 10:54, 10:55, 10:58, 10:59, 10:60, 10:62, 10:64, 10:65, 10:66, 10:67, 10:68, 10:69, 10:71, 10:72, 10:81, 10:82, 10:84, 10:89, 10:95, 10:97, 10:100, 10:101, 10:102, 10:104, 10:106, 10:107, 10:109, 16:1, 16:8, 16:11, 16:12, 16:13, 16:18, 16:19, 16:20, 16:22, 16:23, 16:26, 16:28, 16:31, 16:33, 16:35, 16:36, 16:37, 16:38, 16:41, 16:45, 16:46, 16:47, 16:48, 16:49, 16:51, 16:52, 16:53, 16:56, 16:57, 16:60, 16:61, 16:62, 16:63, 16:65, 16:67, 16:69, 16:70, 16:71, 16:72, 16:73, 16:74, 16:75, 16:76, 16:77, 16:78, 16:79, 16:80, 16:81, 16:83, 16:86, 16:87, 16:88, 16:90, 16:91, 16:92, 16:93, 16:94, 16:95, 16:96, 16:98, 16:101, 16:102, 16:104, 16:105, 16:106, 16:107, 16:108, 16:112, 16:114, 16:115, 16:116, 16:120, 16:121, 16:127, 16:128"
+2,Muhammad,http://www.wikidata.org/entity/Q9458,218,186,14,18,Messenger,Messenger,VERIFIED,"2:4, 2:6, 2:23, 2:91, 2:94, 2:96, 2:97, 2:99, 2:101, 2:108, 2:111, 2:119, 2:120, 2:139, 2:142, 2:143, 2:144, 2:145, 2:146, 2:147, 2:149, 2:150, 2:151, 2:155, 2:186, 2:189, 2:204, 2:215, 2:217, 2:219, 2:220, 2:222, 2:252, 2:272, 2:273, 2:285, 3:3, 3:7, 3:12, 3:20, 3:23, 3:26, 3:29, 3:31, 3:32, 3:44, 3:58, 3:60, 3:61, 3:64, 3:68, 3:73, 3:84, 3:86, 3:93, 3:95, 3:98, 3:99, 3:101, 3:121, 3:124, 3:128, 3:132, 3:144, 3:153, 3:154, 3:159, 3:164, 3:176, 3:183, 3:184, 4:41, 4:42, 4:46, 4:52, 4:59, 4:60, 4:61, 4:62, 4:64, 4:65, 4:69, 4:78, 4:79, 4:80, 4:81, 4:84, 4:88, 4:102, 4:105, 4:107, 4:113, 4:115, 4:127, 4:136, 4:153, 4:162, 4:163, 4:166, 4:170, 4:174, 5:4, 5:13, 5:17, 5:27, 5:41, 5:42, 5:48, 5:60, 5:68, 5:76, 5:77, 5:81, 5:83, 5:100, 6:7, 6:8, 6:10, 6:11, 6:12, 6:14, 6:19, 6:20, 6:24, 6:25, 6:27, 6:30, 6:33, 6:35, 6:37, 6:40, 6:46, 6:47, 6:50, 6:52, 6:56, 6:57, 6:58, 6:63, 6:64, 6:65, 6:66, 6:68, 6:71, 6:90, 6:91, 6:104, 6:106, 6:135, 6:148, 6:149, 6:150, 6:151, 6:159, 6:161, 6:162, 6:164, 7:2, 7:28, 7:29, 7:32, 7:33, 7:101, 7:157, 7:158, 7:175, 7:184, 7:187, 7:188, 7:195, 7:203, 10:2, 10:15, 10:16, 10:20, 10:31, 10:34, 10:35, 10:38, 10:41, 10:42, 10:46, 10:48, 10:49, 10:50, 10:53, 10:58, 10:59, 10:61, 10:65, 10:69, 10:71, 10:94, 10:99, 10:101, 10:102, 10:104, 10:108, 16:37, 16:43, 16:63, 16:64, 16:82, 16:89, 16:101, 16:102, 16:103, 16:118, 16:123, 16:127"
+3,bumi,http://www.wikidata.org/entity/Q2,125,101,13,11,AstronomicalBody,AstronomicalBody,VERIFIED,"2:11, 2:22, 2:27, 2:29, 2:30, 2:33, 2:36, 2:60, 2:61, 2:107, 2:116, 2:117, 2:164, 2:168, 2:205, 2:251, 2:255, 2:267, 2:273, 2:284, 3:5, 3:29, 3:83, 3:91, 3:109, 3:129, 3:133, 3:137, 3:156, 3:180, 3:189, 3:190, 3:191, 4:97, 4:100, 4:101, 4:126, 4:131, 4:132, 4:170, 4:171, 5:17, 5:18, 5:26, 5:32, 5:33, 5:36, 5:40, 5:64, 5:97, 5:106, 5:120, 6:1, 6:3, 6:6, 6:11, 6:12, 6:14, 6:35, 6:38, 6:59, 6:71, 6:73, 6:75, 6:79, 6:101, 6:116, 6:138, 6:165, 7:10, 7:24, 7:54, 7:56, 7:73, 7:74, 7:85, 7:96, 7:128, 7:129, 7:137, 7:146, 7:155, 7:158, 7:161, 7:168, 7:185, 7:187, 10:3, 10:6, 10:14, 10:18, 10:23, 10:24, 10:31, 10:54, 10:55, 10:61, 10:66, 10:68, 10:78, 10:83, 10:99, 10:101, 16:3, 16:13, 16:15, 16:36, 16:45, 16:49, 16:52, 16:61, 16:65, 16:73, 16:77"
+4,Al-Qur’an,http://www.wikidata.org/entity/Q428,87,73,5,9,HolyBook,HolyBook,VERIFIED,"2:2, 2:4, 2:23, 2:41, 2:89, 2:91, 2:97, 2:151, 2:159, 2:185, 2:231, 2:285, 3:3, 3:4, 3:7, 3:58, 3:138, 3:164, 4:47, 4:59, 4:60, 4:82, 4:105, 4:113, 4:127, 4:136, 4:140, 4:162, 4:166, 4:174, 5:48, 5:59, 5:64, 5:66, 5:68, 5:83, 5:101, 6:5, 6:19, 6:25, 6:26, 6:51, 6:55, 6:57, 6:70, 6:90, 6:92, 6:105, 6:110, 6:114, 6:115, 6:155, 6:156, 7:52, 7:53, 7:157, 7:196, 7:203, 7:204, 10:1, 10:15, 10:16, 10:37, 10:38, 10:40, 10:57, 10:61, 10:108, 16:44, 16:64, 16:89, 16:98, 16:102, 16:103, 16:104"
+5,langit,http://www.wikidata.org/entity/Q527,78,61,10,7,AstronomicalBody,AstronomicalBody,VERIFIED,"2:19, 2:22, 2:29, 2:33, 2:59, 2:107, 2:116, 2:117, 2:144, 2:164, 2:255, 2:284, 3:5, 3:29, 3:83, 3:109, 3:124, 3:129, 3:133, 3:180, 3:183, 3:189, 3:190, 3:191, 4:126, 4:131, 4:132, 4:153, 4:170, 4:171, 5:17, 5:18, 5:40, 5:97, 5:112, 5:114, 5:120, 6:1, 6:3, 6:12, 6:14, 6:35, 6:73, 6:75, 6:79, 6:99, 6:101, 6:125, 7:40, 7:54, 7:96, 7:158, 7:162, 7:185, 7:187, 10:3, 10:6, 10:18, 10:24, 10:31, 10:55, 10:61, 10:66, 10:68, 10:101, 16:3, 16:10, 16:49, 16:52, 16:65, 16:73, 16:77"
+6,Musa,http://www.wikidata.org/entity/Q1990155,74,54,8,12,Messenger,Messenger,VERIFIED,"2:51, 2:53, 2:54, 2:55, 2:60, 2:61, 2:67, 2:68, 2:69, 2:71, 2:87, 2:92, 2:108, 2:136, 2:246, 2:248, 3:84, 4:153, 4:164, 5:20, 5:22, 5:24, 5:25, 5:26, 6:84, 6:91, 6:154, 7:103, 7:104, 7:107, 7:115, 7:116, 7:117, 7:122, 7:127, 7:128, 7:129, 7:131, 7:132, 7:134, 7:138, 7:140, 7:142, 7:143, 7:144, 7:145, 7:148, 7:150, 7:151, 7:154, 7:155, 7:159, 7:160, 10:75, 10:77, 10:78, 10:80, 10:81, 10:83, 10:84, 10:87, 10:88"
+7,Taurat,http://www.wikidata.org/entity/Q2383104,39,34,2,3,HolyBook,HolyBook,VERIFIED,"2:41, 2:44, 2:51, 2:53, 2:78, 2:85, 2:87, 2:101, 2:146, 2:174, 3:3, 3:20, 3:23, 3:48, 3:50, 3:65, 3:93, 4:44, 4:51, 5:43, 5:44, 5:45, 5:46, 5:66, 5:68, 5:110, 6:91, 6:154, 7:142, 7:145, 7:150, 7:154, 7:157, 7:169, 7:170, 10:93"
+8,hari Kiamat,http://www.wikidata.org/entity/Q12200906,36,31,3,2,Event,Event,VERIFIED,"2:85, 2:113, 2:165, 2:174, 2:210, 2:212, 3:55, 3:77, 3:161, 3:180, 3:181, 3:185, 3:194, 4:41, 4:87, 4:109, 4:141, 4:159, 5:14, 5:36, 5:64, 6:12, 6:31, 6:40, 6:51, 7:32, 7:59, 7:167, 7:172, 10:60, 10:93, 16:25, 16:27, 16:92, 16:124"
+9,Bani Israil,http://www.wikidata.org/entity/Q2605404,35,28,4,3,Person,Person,VERIFIED,"2:40, 2:47, 2:51, 2:83, 2:85, 2:108, 2:122, 2:211, 2:246, 3:49, 3:52, 3:78, 3:93, 5:12, 5:32, 5:45, 5:46, 5:70, 5:72, 5:78, 5:110, 6:91, 7:105, 7:134, 7:137, 7:138, 7:141, 7:160, 7:161, 7:167, 10:90, 10:93"
+10,Ibrahim,http://www.wikidata.org/entity/Q1768161,33,28,2,3,Messenger,Messenger,VERIFIED,"2:124, 2:125, 2:126, 2:127, 2:130, 2:131, 2:132, 2:133, 2:136, 2:140, 2:258, 2:260, 3:33, 3:65, 3:67, 3:68, 3:84, 4:54, 4:125, 4:163, 6:74, 6:75, 6:76, 6:80, 6:83, 6:161, 16:120, 16:121"
+11,Ahlulkitab,http://www.wikidata.org/entity/Q216565,29,18,5,6,Person,Person,VERIFIED,"2:105, 2:109, 3:64, 3:65, 3:69, 3:70, 3:71, 3:72, 3:75, 3:98, 3:99, 3:110, 3:113, 3:199, 4:123, 4:153, 4:159, 4:171, 5:5, 5:15, 5:19, 5:59, 5:61, 5:62, 5:65, 5:68, 5:75, 5:77, 6:105"
+12,Fir‘aun,http://www.wikidata.org/entity/Q37110,28,23,2,3,Person,Person,VERIFIED,"2:49, 2:50, 3:11, 7:103, 7:104, 7:106, 7:109, 7:110, 7:113, 7:114, 7:123, 7:126, 7:127, 7:129, 7:130, 7:132, 7:137, 7:141, 10:75, 10:79, 10:83, 10:88, 10:90"
+13,bulan,http://www.wikidata.org/entity/Q405,22,18,2,2,AstronomicalBody,AstronomicalBody,VERIFIED,"2:185, 2:189, 2:194, 2:197, 2:217, 2:226, 2:234, 4:92, 5:2, 5:97, 6:77, 6:96, 7:54, 10:5, 16:12"
+14,Isa,http://www.wikidata.org/entity/Q51664,20,14,3,3,Messenger,Messenger,VERIFIED,"2:87, 2:136, 3:48, 3:49, 3:52, 3:55, 3:58, 3:59, 3:84, 4:157, 4:158, 4:159, 4:163, 5:111, 5:112, 5:116, 6:85"
+15,Adam,http://www.wikidata.org/entity/Q2001710,16,12,3,1,Prophet,Prophet,VERIFIED,"2:31, 2:33, 2:34, 2:35, 2:37, 3:33, 3:59, 4:1, 4:25, 5:27, 6:98, 7:11, 7:19, 7:189"
+16,haji,http://www.wikidata.org/entity/Q234915,15,11,1,3,Event,Event,VERIFIED,"2:128, 2:158, 2:189, 2:196, 2:197, 2:198, 2:200, 3:97, 5:1, 5:95"
+17,Jahanam,http://www.wikidata.org/entity/Q58418,15,10,4,1,AfterlifeLocation,AfterlifeLocation,VERIFIED,"2:206, 3:12, 3:162, 3:197, 4:55, 4:93, 4:97, 4:115, 4:121, 4:140, 4:169, 7:18, 7:41, 7:179, 16:29"
+18,hari Akhir,http://www.wikidata.org/entity/Q12200906,14,11,1,2,Event,Event,VERIFIED,"2:8, 2:62, 2:126, 2:177, 2:228, 2:232, 2:264, 3:114, 4:38, 4:39, 4:59, 4:136, 4:162, 5:69"
+19,Maryam,http://www.wikidata.org/entity/Q1478857,12,8,3,1,Person,Person,VERIFIED,"2:87, 3:36, 3:37, 3:42, 3:43, 3:44, 3:45, 3:47, 4:156, 4:171"
+20,Yahudi,http://www.wikidata.org/entity/Q7325,12,11,0,1,Religion,Religion,VERIFIED,"2:111, 2:135, 2:139, 3:20, 3:23, 3:67, 3:181, 3:183, 4:51, 5:52, 6:156, 16:124"
+21,Nasrani,http://www.wikidata.org/entity/Q106039,12,9,2,1,Religion,Religion,VERIFIED,"2:111, 2:120, 2:135, 2:139, 2:140, 3:20, 3:67, 5:51, 5:52, 5:69, 6:156"
+22,Tuhan semesta alam,http://www.wikidata.org/entity/Q2095353,11,8,1,2,Allah,Allah,VERIFIED,"5:28, 6:45, 6:71, 6:162, 7:54, 7:61, 7:67, 7:104, 7:121, 10:10, 10:37"
+23,Injil,http://www.wikidata.org/entity/Q1762323,10,9,0,1,HolyBook,HolyBook,VERIFIED,"2:146, 3:3, 3:20, 3:48, 3:65, 5:46, 5:66, 5:68, 5:110, 7:157"
+24,Harun,http://www.wikidata.org/entity/Q380714,10,6,2,2,Messenger,Messenger,VERIFIED,"2:248, 4:163, 6:84, 7:122, 7:142, 7:150, 10:75, 10:78, 10:87"
+25,Nuh,http://www.wikidata.org/entity/Q1782672,10,8,1,1,Messenger,Messenger,VERIFIED,"3:33, 4:163, 6:84, 7:59, 7:61, 7:64, 7:69, 10:71, 10:73, 10:74"
+26,orang-orang Yahudi,http://www.wikidata.org/entity/Q7325,9,7,1,1,Person,Person,VERIFIED,"2:62, 2:96, 4:46, 4:160, 5:41, 5:42, 5:69, 5:82, 6:146"
+27,Islam,http://www.wikidata.org/entity/Q432,9,9,0,0,Religion,Religion,VERIFIED,"2:208, 2:256, 3:19, 3:20, 3:85, 5:3, 6:125, 10:105"
+28,Isa putra Maryam,http://www.wikidata.org/entity/Q51664,9,6,2,1,Messenger,Messenger,VERIFIED,"2:253, 4:157, 4:171, 5:46, 5:78, 5:110, 5:112, 5:114, 5:116"
+29,Jibril,http://www.wikidata.org/entity/Q3467762,8,8,0,0,Angel,Angel,VERIFIED,"2:87, 2:97, 2:98, 2:253, 3:39, 3:42, 3:45, 16:102"
+30,Ismail,http://www.wikidata.org/entity/Q470988,8,8,0,0,Messenger,Messenger,VERIFIED,"2:125, 2:127, 2:133, 2:136, 2:140, 3:84, 4:163, 6:86"
+31,Ya‘qub,http://www.wikidata.org/entity/Q2513598,8,6,1,1,Messenger,Messenger,VERIFIED,"2:132, 2:133, 2:136, 2:140, 3:84, 3:93, 4:163, 6:84"
+32,Masjidilharam,http://www.wikidata.org/entity/Q428858,8,7,1,0,GeographicalLocation,GeographicalLocation,VERIFIED,"2:144, 2:149, 2:150, 2:191, 2:196, 2:217, 5:2"
+33,Baitulmaqdis,http://www.wikidata.org/entity/Q1218,7,5,0,2,GeographicalLocation,GeographicalLocation,VERIFIED,"2:58, 2:143, 3:35, 4:154, 5:21, 5:23, 7:161"
+34,Tuhan Yang Maha Esa,http://www.wikidata.org/entity/Q2095353,7,5,0,2,Allah,Allah,VERIFIED,"2:133, 2:163, 4:171, 5:73, 6:19, 16:22, 16:51"
+35,matahari,http://www.wikidata.org/entity/Q525,7,7,0,0,AstronomicalBody,AstronomicalBody,VERIFIED,"2:258, 6:78, 6:96, 7:54, 10:5, 16:12"
+36,Syuʻaib,http://www.wikidata.org/entity/Q982867,7,7,0,0,Messenger,Messenger,VERIFIED,"7:85, 7:88, 7:90, 7:92, 7:93"
+37,agama Ibrahim,http://www.wikidata.org/entity/Q432,6,6,0,0,Religion,Religion,VERIFIED,"2:130, 2:135, 3:95, 4:125, 6:161, 16:123"
+38,Ishaq,http://www.wikidata.org/entity/Q1642480,6,5,1,0,Messenger,Messenger,VERIFIED,"2:133, 2:136, 2:140, 3:84, 4:163, 6:84"
+39,Zakaria,http://www.wikidata.org/entity/Q2420409,6,4,2,0,Prophet,Prophet,VERIFIED,"3:37, 3:38, 3:40, 3:41, 6:85"
+40,Qabil,http://www.wikidata.org/entity/Q40326813,6,4,2,0,Person,Person,VERIFIED,"5:27, 5:28, 5:30, 5:31"
+41,putih,http://www.wikidata.org/entity/Q23444,5,3,2,0,Color,Color,VERIFIED,"2:61, 2:187, 3:106, 3:107, 7:108"
+42,Baitullah,http://www.wikidata.org/entity/Q29466,5,4,0,1,Artifact,Artifact,VERIFIED,"2:127, 2:158, 3:96, 3:97"
+43,hitam,http://www.wikidata.org/entity/Q23445,5,3,2,0,Color,Color,VERIFIED,"2:187, 3:106, 10:26, 16:58"
+44,Daud,http://www.wikidata.org/entity/Q1257863,5,4,1,0,Messenger,Messenger,VERIFIED,"2:251, 4:163, 5:78, 6:84"
+45,Kiamat,http://www.wikidata.org/entity/Q12200906,5,5,0,0,Event,Event,VERIFIED,"2:254, 3:25, 7:51, 7:187, 16:77"
+46,Yang Maha Perkasa lagi Maha Bijaksana,http://www.wikidata.org/entity/Q2095353,5,4,1,0,Allah,Allah,VERIFIED,"2:129, 3:6, 3:18, 3:126, 5:118"
+47,Makkah,http://www.wikidata.org/entity/Q5806,5,5,0,0,GeographicalLocation,GeographicalLocation,VERIFIED,"3:96, 4:51, 4:75, 4:97, 6:92"
+48,anak cucu Adam,http://www.wikidata.org/entity/Q5,5,4,0,1,Person,Person,VERIFIED,"7:26, 7:27, 7:31, 7:35, 7:172"
+49,Hud,http://www.wikidata.org/entity/Q193669,5,3,1,1,Messenger,Messenger,VERIFIED,"7:65, 7:67, 7:70, 7:71, 7:72"
+50,kiamat,http://www.wikidata.org/entity/Q12200906,4,4,0,0,Event,Event,VERIFIED,"2:48, 2:281, 6:15, 7:187"
+51,hari Sabat,http://www.wikidata.org/entity/Q102477,4,4,0,0,Event,Event,VERIFIED,"2:65, 4:47, 4:154, 7:163"
+52,Ruhulkudus,http://www.wikidata.org/entity/Q3467762,4,4,0,0,Angel,Angel,VERIFIED,"2:87, 2:253, 5:110, 16:102"
+53,orang Yahudi,http://www.wikidata.org/entity/Q7325,4,3,1,0,Person,Person,VERIFIED,"2:111, 5:44, 5:51, 16:118"
+54,umrah,http://www.wikidata.org/entity/Q640480,4,4,0,0,Event,Event,VERIFIED,"2:196, 5:1, 5:95"
+55,Talut,http://www.wikidata.org/entity/Q4119704,4,2,2,0,Person,Person,VERIFIED,"2:247, 2:249, 2:251"
+56,Jalut,http://www.wikidata.org/entity/Q3160748,4,2,2,0,Person,Person,VERIFIED,"2:249, 2:250, 2:251"
+57,Almasih,http://www.wikidata.org/entity/Q51664,4,3,0,1,Person,Person,VERIFIED,"4:157, 4:171, 4:172, 5:72"
+58,Sulaiman,http://www.wikidata.org/entity/Q1768167,4,1,3,0,Messenger,Messenger,VERIFIED,"2:102, 4:163, 6:84"
+59,Almasih putra Maryam,http://www.wikidata.org/entity/Q51664,4,3,1,0,Person,Person,VERIFIED,"5:17, 5:72, 5:75"
+60,Saleh,http://www.wikidata.org/entity/Q326189,4,4,0,0,Messenger,Messenger,VERIFIED,"7:73, 7:75, 7:77, 7:79"
+61,Yang Maha Penerima Tobat lagi Maha Penyayang,http://www.wikidata.org/entity/Q2095353,3,2,0,1,Allah,Allah,VERIFIED,"2:54, 2:128, 2:160"
+62,Sinai,http://www.wikidata.org/entity/Q377485,3,3,0,0,GeographicalLocation,GeographicalLocation,VERIFIED,"2:63, 2:93, 4:154"
+63,Orang-orang Yahudi,http://www.wikidata.org/entity/Q7325,3,2,1,0,Person,Person,VERIFIED,"2:113, 2:120, 5:64"
+64,Ka‘bah,http://www.wikidata.org/entity/Q29466,3,3,0,0,Artifact,Artifact,VERIFIED,"2:125, 5:95, 5:97"
+65,Yang Maha Mendengar lagi Maha Mengetahui,http://www.wikidata.org/entity/Q2095353,3,2,0,1,Allah,Allah,VERIFIED,"2:127, 3:35, 6:13"
+66,umat Islam,http://www.wikidata.org/entity/Q47740,3,2,1,0,Person,Person,VERIFIED,"2:143, 3:110, 4:131"
+67,Imran,http://www.wikidata.org/entity/Q13512873,3,2,0,1,Person,Person,VERIFIED,"3:33, 3:35, 3:36"
+68,Perang Badar,http://www.wikidata.org/entity/Q486124,3,2,1,0,Event,Event,VERIFIED,"3:123, 3:140, 3:165"
+69,Perang Uhud,http://www.wikidata.org/entity/Q488278,3,2,1,0,Event,Event,VERIFIED,"3:140, 3:165, 3:172"
+70,Yang Maha Mengetahui,http://www.wikidata.org/entity/Q2095353,3,3,0,0,Allah,Allah,VERIFIED,"4:70, 5:109, 5:116"
+71,Yunus,http://www.wikidata.org/entity/Q2601901,3,2,1,0,Messenger,Messenger,VERIFIED,"4:163, 6:86, 10:98"
+72,orang Nasrani,http://www.wikidata.org/entity/Q106039,3,3,0,0,Person,Person,VERIFIED,"5:14, 5:18, 5:82"
+73,Lut,http://www.wikidata.org/entity/Q1918059,3,2,0,1,Messenger,Messenger,VERIFIED,"6:86, 7:80, 7:82"
+74,Mesir,http://www.wikidata.org/entity/Q79,3,2,0,1,GeographicalLocation,GeographicalLocation,VERIFIED,"7:127, 10:78, 10:87"
+75,orang-orang Nasrani,http://www.wikidata.org/entity/Q106039,2,2,0,0,Person,Person,VERIFIED,"2:62, 2:113"
+76,Orang Yahudi,http://www.wikidata.org/entity/Q7325,2,2,0,0,Person,Person,VERIFIED,"2:113, 5:18"
+77,Maqam Ibrahim,http://www.wikidata.org/entity/Q3696312,2,2,0,0,Artifact,Artifact,VERIFIED,"2:125, 3:97"
+78,Arafah,http://www.wikidata.org/entity/Q216894,2,1,0,1,GeographicalLocation,GeographicalLocation,VERIFIED,"2:198, 2:199"
+79,yang menghidupkan dan mematikan,http://www.wikidata.org/entity/Q2095353,2,2,0,0,Allah,Allah,VERIFIED,"2:258, 10:56"
+80,Yahya,http://www.wikidata.org/entity/Q2422313,2,2,0,0,Prophet,Prophet,VERIFIED,"3:39, 6:85"
+81,Quraisy,http://www.wikidata.org/entity/Q485732,2,2,0,0,Person,Person,VERIFIED,"3:173, 6:89"
+82,Hawa,http://www.wikidata.org/entity/Q28956531,2,1,1,0,Person,Person,VERIFIED,"4:1, 4:25"
+83,Ayyub,http://www.wikidata.org/entity/Q2625307,2,1,1,0,Prophet,Prophet,VERIFIED,"4:163, 6:84"
+84,Yang Maha Kaya,http://www.wikidata.org/entity/Q2095353,2,2,0,0,Allah,Allah,VERIFIED,"6:133, 10:68"
+85,ʻArasy,http://www.wikidata.org/entity/Q25462647,2,2,0,0,Throne,Throne,VERIFIED,"7:54, 10:3"
+86,‘Ad,http://www.wikidata.org/entity/Q345427,2,1,0,1,Person,Person,VERIFIED,"7:65, 7:74"
+87,bahasa Arab,http://www.wikidata.org/entity/Q13955,2,2,0,0,Language,Language,VERIFIED,16:103
+88,Habil,http://www.wikidata.org/entity/Q40326836,2,0,2,0,Person,Person,VERIFIED,5:27
+89,Yang Maha Mengetahui lagi Maha Bijaksana,http://www.wikidata.org/entity/Q2095353,1,1,0,0,Allah,Allah,VERIFIED,2:32
+90,Yang Maha Penerima tobat lagi Maha Penyayang,http://www.wikidata.org/entity/Q2095353,1,1,0,0,Allah,Allah,VERIFIED,2:37
+91,orang-orang Sabiin,http://www.wikidata.org/entity/Q2144747,1,1,0,0,Person,Person,VERIFIED,2:62
+92,Mikail,http://www.wikidata.org/entity/Q45581,1,1,0,0,Angel,Angel,VERIFIED,2:98
+93,Orang Nasrani,http://www.wikidata.org/entity/Q106039,1,1,0,0,Person,Person,VERIFIED,2:113
+94,negeri Makkah,http://www.wikidata.org/entity/Q5806,1,1,0,0,GeographicalLocation,GeographicalLocation,VERIFIED,2:126
+95,penganut Yahudi,http://www.wikidata.org/entity/Q7325,1,1,0,0,Person,Person,VERIFIED,2:140
+96,Yang Maha Pengasih lagi Maha Penyayang,http://www.wikidata.org/entity/Q2095353,1,1,0,0,Allah,Allah,VERIFIED,2:163
+97,Bulan Ramadan,http://www.wikidata.org/entity/Q41662,1,1,0,0,Event,Event,VERIFIED,2:185
+98,fajar,http://www.wikidata.org/entity/Q685643,1,1,0,0,AstronomicalBody,AstronomicalBody,VERIFIED,2:187
+99,Bulan,http://www.wikidata.org/entity/Q405,1,1,0,0,AstronomicalBody,AstronomicalBody,VERIFIED,2:194
+100,Mina,http://www.wikidata.org/entity/Q753276,1,1,0,0,GeographicalLocation,GeographicalLocation,VERIFIED,2:203
+101,neraka Jahanam,http://www.wikidata.org/entity/Q58418,1,1,0,0,AfterlifeLocation,AfterlifeLocation,VERIFIED,2:206
+102,Tabut,http://www.wikidata.org/entity/Q131316,1,1,0,0,Artifact,Artifact,VERIFIED,2:248
+103,Yang Maha Hidup,http://www.wikidata.org/entity/Q2095353,1,1,0,0,Allah,Allah,VERIFIED,2:255
+104,Yang Maha Hidup lagi Maha Mengurus,http://www.wikidata.org/entity/Q2095353,1,1,0,0,Allah,Allah,VERIFIED,3:2
+105,Isa Almasih putra Maryam,http://www.wikidata.org/entity/Q51664,1,1,0,0,Messenger,Messenger,VERIFIED,3:45
+106,Israil,http://www.wikidata.org/entity/Q2513598,1,1,0,0,Prophet,Prophet,VERIFIED,3:93
+107,Bakkah,http://www.wikidata.org/entity/Q5806,1,1,0,0,GeographicalLocation,GeographicalLocation,VERIFIED,3:96
+108,Sabtu,http://www.wikidata.org/entity/Q102477,1,1,0,0,Event,Event,VERIFIED,4:47
+109,Zabur,http://www.wikidata.org/entity/Q1369122,1,1,0,0,HolyBook,HolyBook,VERIFIED,4:163
+110,Baitulharam,http://www.wikidata.org/entity/Q428858,1,1,0,0,Artifact,Artifact,VERIFIED,5:2
+111,pengikut Injil,http://www.wikidata.org/entity/Q106039,1,1,0,0,Person,Person,VERIFIED,5:47
+112,pengikut Allah,http://www.wikidata.org/entity/Q12485813,1,1,0,0,Person,Person,VERIFIED,5:56
+113,Sabiin,http://www.wikidata.org/entity/Q2144747,1,1,0,0,Person,Person,VERIFIED,5:69
+114,Yang Maha Bijaksana lagi Maha Mengetahui,http://www.wikidata.org/entity/Q2095353,1,1,0,0,Allah,Allah,VERIFIED,6:18
+115,Yang Maha Kuasa,http://www.wikidata.org/entity/Q2095353,1,1,0,0,Allah,Allah,VERIFIED,6:65
+116,Yang Maha Bijaksana lagi Maha Teliti,http://www.wikidata.org/entity/Q2095353,1,1,0,0,Allah,Allah,VERIFIED,6:73
+117,Azar,http://www.wikidata.org/entity/Q16166505,1,1,0,0,Person,Person,VERIFIED,6:74
+118,Ilyas,http://www.wikidata.org/entity/Q2090543,1,1,0,0,Prophet,Prophet,VERIFIED,6:85
+119,Ilyasa’,http://www.wikidata.org/entity/Q15215483,1,1,0,0,Person,Person,VERIFIED,6:86
+120,Ummul Qura,http://www.wikidata.org/entity/Q5806,1,1,0,0,GeographicalLocation,GeographicalLocation,VERIFIED,6:92
+121,Yang Maha Perkasa lagi Maha Mengetahui,http://www.wikidata.org/entity/Q2095353,1,1,0,0,Allah,Allah,VERIFIED,6:96
+122,Yang Maha Halus lagi Maha Teliti,http://www.wikidata.org/entity/Q2095353,1,1,0,0,Allah,Allah,VERIFIED,6:103
+123,Al-Qur'an,http://www.wikidata.org/entity/Q428,1,1,0,0,HolyBook,HolyBook,VERIFIED,6:106
+124,Samud,http://www.wikidata.org/entity/Q1132376,1,1,0,0,Person,Person,VERIFIED,7:73
+125,Sabat,http://www.wikidata.org/entity/Q102477,1,1,0,0,Event,Event,VERIFIED,7:163
+126,Laut Merah,http://www.wikidata.org/entity/Q23406,1,1,0,0,GeographicalLocation,GeographicalLocation,VERIFIED,10:90
+127,Yang Maha Pengampun lagi Maha Penyayang,http://www.wikidata.org/entity/Q2095353,1,1,0,0,Allah,Allah,VERIFIED,10:107
+128,‘Adn,http://www.wikidata.org/entity/Q19014,1,1,0,0,AfterlifeLocation,AfterlifeLocation,VERIFIED,16:31
+129,hari Sabtu,http://www.wikidata.org/entity/Q102477,1,1,0,0,Event,Event,VERIFIED,16:124
+130,negeri Babilonia,http://www.wikidata.org/entity/Q47690,1,0,1,0,GeographicalLocation,GeographicalLocation,VERIFIED,2:102
+131,Harut,http://www.wikidata.org/entity/Q37946368,1,0,1,0,Angel,Angel,VERIFIED,2:102
+132,Marut,http://www.wikidata.org/entity/Q37946376,1,0,1,0,Angel,Angel,VERIFIED,2:102
+133,Yusuf,http://www.wikidata.org/entity/Q563644,1,0,1,0,Prophet,Prophet,VERIFIED,6:84
+134,Yang menghidupkan dan mematikan,http://www.wikidata.org/entity/Q2095353,1,0,1,0,Allah,Allah,VERIFIED,7:158
+135,aż-Żikr,http://www.wikidata.org/entity/Q428,1,0,1,0,HolyBook,HolyBook,VERIFIED,16:44
+136,Safa,http://www.wikidata.org/entity/Q900671,1,0,0,1,GeographicalLocation,GeographicalLocation,VERIFIED,2:158
+137,Marwah,http://www.wikidata.org/entity/Q900671,1,0,0,1,GeographicalLocation,GeographicalLocation,VERIFIED,2:158
+138,Masyarilharam,http://www.wikidata.org/entity/Q1788735,1,0,0,1,GeographicalLocation,GeographicalLocation,VERIFIED,2:198
+139,Gunung Sinai,http://www.wikidata.org/entity/Q377485,1,0,0,1,GeographicalLocation,GeographicalLocation,VERIFIED,7:148
+140,Yang Maha Tinggi,http://www.wikidata.org/entity/Q2095353,1,0,0,1,Allah,Allah,VERIFIED,16:60
