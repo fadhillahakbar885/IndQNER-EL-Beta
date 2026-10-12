@@ -1,11 +1,5 @@
 # Rencana Detail Proyek: Revisi dan Pengayaan Dataset IndQNER Berbasis Mention IndQEL
 
-**Dokumen Rencana Kerja Skripsi / Proyek Riset NLP**  
-**Fokus:** Data Engineering, Entity Linking Alignment, dan Named Entity Recognition Enrichment  
-**Prinsip Utama:** *Strict Zero Deletion Policy* (Preservasi 100% label asli IndQNER)
-
----
-
 ## 1. Ringkasan Eksekutif & Latar Belakang
 
 Penelitian ini bertujuan untuk merevisi dan memperkaya dataset **IndQNER** (*Indonesian Quranic Named Entity Recognition*) dengan memanfaatkan informasi *mention* dan entitas dari dataset **IndQEL** (*Indonesian Quranic Entity Linking*). 
