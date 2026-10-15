@@ -323,15 +323,19 @@ def train_and_evaluate(experiment_name, data_dir, test_dir, output_dir, args):
     except TypeError:
         training_args = TrainingArguments(evaluation_strategy="epoch", **tr_args_dict)
 
-    trainer = Trainer(
-        model=model,
-        args=training_args,
-        train_dataset=train_dataset,
-        eval_dataset=dev_dataset,
-        tokenizer=tokenizer,
-        data_collator=DataCollatorForTokenClassification(tokenizer),
-        compute_metrics=lambda p: compute_metrics(p, ID2LABEL)
-    )
+    # Inisialisasi Trainer (processing_class untuk transformers v4.46+, fallback ke tokenizer untuk versi lama)
+    trainer_kwargs = {
+        "model": model,
+        "args": training_args,
+        "train_dataset": train_dataset,
+        "eval_dataset": dev_dataset,
+        "data_collator": DataCollatorForTokenClassification(tokenizer),
+        "compute_metrics": lambda p: compute_metrics(p, ID2LABEL),
+    }
+    try:
+        trainer = Trainer(processing_class=tokenizer, **trainer_kwargs)
+    except TypeError:
+        trainer = Trainer(tokenizer=tokenizer, **trainer_kwargs)
 
     print("\nMenjalankan Fine-Tuning...")
     trainer.train()
