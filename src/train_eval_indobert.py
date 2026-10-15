@@ -113,9 +113,32 @@ def tokenize_and_align_labels(examples, tokenizer, max_length=256):
     tokenized_inputs["labels"] = all_labels
     return tokenized_inputs
 
+def extract_entities_from_tags(tags):
+    """Mengekstrak entitas span [(start, end, label)] dari list tag BIO (Strict Span)."""
+    entities = []
+    current_entity = None
+    for i, tag in enumerate(tags):
+        if tag.startswith("B-"):
+            if current_entity:
+                entities.append(current_entity)
+            current_entity = (i, i, tag[2:])
+        elif tag.startswith("I-"):
+            if current_entity and current_entity[2] == tag[2:]:
+                current_entity = (current_entity[0], i, tag[2:])
+            else:
+                if current_entity:
+                    entities.append(current_entity)
+                current_entity = (i, i, tag[2:])
+        else:
+            if current_entity:
+                entities.append(current_entity)
+                current_entity = None
+    if current_entity:
+        entities.append(current_entity)
+    return set(entities)
+
 def compute_metrics(p, id2label):
-    """Menghitung metrik evaluasi strict span matching via seqeval."""
-    import seqeval.metrics as seq_metrics
+    """Menghitung metrik evaluasi strict span matching via seqeval atau built-in CoNLL parser."""
     predictions, labels = p
     predictions = np.argmax(predictions, axis=2)
 
@@ -128,10 +151,63 @@ def compute_metrics(p, id2label):
         for prediction, label in zip(predictions, labels)
     ]
 
-    p_score = seq_metrics.precision_score(true_labels, true_predictions)
-    r_score = seq_metrics.recall_score(true_labels, true_predictions)
-    f1_score = seq_metrics.f1_score(true_labels, true_predictions)
-    report_dict = seq_metrics.classification_report(true_labels, true_predictions, output_dict=True)
+    try:
+        import seqeval.metrics as seq_metrics
+        p_score = float(seq_metrics.precision_score(true_labels, true_predictions))
+        r_score = float(seq_metrics.recall_score(true_labels, true_predictions))
+        f1_score = float(seq_metrics.f1_score(true_labels, true_predictions))
+        report_dict = seq_metrics.classification_report(true_labels, true_predictions, output_dict=True)
+    except (ImportError, Exception):
+        # Fallback ke built-in CoNLL strict span evaluation (Zero external dependency)
+        from collections import defaultdict
+        tp_total, fp_total, fn_total = 0, 0, 0
+        tp_class = defaultdict(int)
+        fp_class = defaultdict(int)
+        fn_class = defaultdict(int)
+        all_classes = set()
+
+        for t_tags, p_tags in zip(true_labels, true_predictions):
+            t_ents = extract_entities_from_tags(t_tags)
+            p_ents = extract_entities_from_tags(p_tags)
+
+            for e in t_ents:
+                all_classes.add(e[2])
+            for e in p_ents:
+                all_classes.add(e[2])
+
+            tp = t_ents.intersection(p_ents)
+            fp = p_ents - t_ents
+            fn = t_ents - p_ents
+
+            tp_total += len(tp)
+            fp_total += len(fp)
+            fn_total += len(fn)
+
+            for _, _, cls in tp:
+                tp_class[cls] += 1
+            for _, _, cls in fp:
+                fp_class[cls] += 1
+            for _, _, cls in fn:
+                fn_class[cls] += 1
+
+        p_score = tp_total / (tp_total + fp_total) if (tp_total + fp_total) > 0 else 0.0
+        r_score = tp_total / (tp_total + fn_total) if (tp_total + fn_total) > 0 else 0.0
+        f1_score = 2 * p_score * r_score / (p_score + r_score) if (p_score + r_score) > 0 else 0.0
+
+        report_dict = {}
+        for cls in sorted(all_classes):
+            c_tp = tp_class[cls]
+            c_fp = fp_class[cls]
+            c_fn = fn_class[cls]
+            c_prec = c_tp / (c_tp + c_fp) if (c_tp + c_fp) > 0 else 0.0
+            c_rec = c_tp / (c_tp + c_fn) if (c_tp + c_fn) > 0 else 0.0
+            c_f1 = 2 * c_prec * c_rec / (c_prec + c_rec) if (c_prec + c_rec) > 0 else 0.0
+            report_dict[cls] = {
+                "precision": c_prec,
+                "recall": c_rec,
+                "f1-score": c_f1,
+                "support": c_tp + c_fn
+            }
 
     return {
         "precision": p_score,
