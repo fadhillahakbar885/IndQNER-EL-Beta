@@ -80,8 +80,7 @@ def tokenize_and_align_labels(examples, tokenizer, max_length=256):
         padding="max_length",
         truncation=True,
         max_length=max_length,
-        is_split_into_words=True,
-        return_tensors="pt"
+        is_split_into_words=True
     )
 
     all_labels = []
@@ -171,12 +170,31 @@ def train_and_evaluate(experiment_name, data_dir, test_dir, output_dir, args):
     if device == "cuda":
         print(f"Nama GPU: {torch.cuda.get_device_name(0)}")
 
+    from transformers import (
+        AutoConfig,
+        AutoTokenizer,
+        AutoModelForTokenClassification,
+        TrainingArguments,
+        Trainer,
+        DataCollatorForTokenClassification
+    )
+
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    print(f"Menggunakan Perangkat Komputasi: {device.upper()}")
+    if device == "cuda":
+        print(f"Nama GPU: {torch.cuda.get_device_name(0)}")
+
     tokenizer = AutoTokenizer.from_pretrained(args.model_name)
-    model = AutoModelForTokenClassification.from_pretrained(
+    config = AutoConfig.from_pretrained(
         args.model_name,
         num_labels=len(LABEL_LIST),
         id2label=ID2LABEL,
         label2id=LABEL2ID
+    )
+    model = AutoModelForTokenClassification.from_pretrained(
+        args.model_name,
+        config=config,
+        ignore_mismatched_sizes=True
     ).to(device)
 
     # 1. Muat data
@@ -194,7 +212,10 @@ def train_and_evaluate(experiment_name, data_dir, test_dir, output_dir, args):
             return len(self.encoded["input_ids"])
 
         def __getitem__(self, idx):
-            item = {k: torch.tensor(v[idx]) for k, v in self.encoded.items()}
+            item = {
+                k: torch.tensor(v[idx], dtype=torch.long)
+                for k, v in self.encoded.items()
+            }
             return item
 
     train_dataset = NERDataset(train_raw, tokenizer, args.max_length)
@@ -204,14 +225,13 @@ def train_and_evaluate(experiment_name, data_dir, test_dir, output_dir, args):
     exp_output_dir = os.path.join(output_dir, experiment_name)
     os.makedirs(exp_output_dir, exist_ok=True)
 
-    training_args = TrainingArguments(
+    tr_args_dict = dict(
         output_dir=exp_output_dir,
         num_train_epochs=args.epochs,
         per_device_train_batch_size=args.batch_size,
         per_device_eval_batch_size=args.batch_size,
         learning_rate=args.learning_rate,
         weight_decay=0.01,
-        evaluation_strategy="epoch",
         save_strategy="epoch",
         load_best_model_at_end=True,
         metric_for_best_model="f1",
@@ -220,6 +240,12 @@ def train_and_evaluate(experiment_name, data_dir, test_dir, output_dir, args):
         report_to="none",
         fp16=(device == "cuda")
     )
+
+    # Kompatibilitas versi Transformers (eval_strategy untuk v4.41+, evaluation_strategy untuk versi lama)
+    try:
+        training_args = TrainingArguments(eval_strategy="epoch", **tr_args_dict)
+    except TypeError:
+        training_args = TrainingArguments(evaluation_strategy="epoch", **tr_args_dict)
 
     trainer = Trainer(
         model=model,
