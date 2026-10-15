@@ -257,10 +257,14 @@ def main():
                         help="Mode eksperimen: 'baseline', 'enriched', atau 'both' (default)")
     parser.add_argument("--model_name", type=str, default="indobenchmark/indobert-base-p1",
                         help="Nama pretrained model HuggingFace")
-    parser.add_argument("--epochs", type=int, default=5, help="Jumlah epoch training (default: 5)")
-    parser.add_argument("--batch_size", type=int, default=16, help="Batch size (default: 16)")
-    parser.add_argument("--learning_rate", type=float, default=3e-5, help="Learning rate (default: 3e-5)")
-    parser.add_argument("--max_length", type=int, default=256, help="Maksimal token sequence length (default: 256)")
+    parser.add_argument("--epochs", type=int, default=10, 
+                        help="Jumlah epoch training sesuai benchmark IndQNER README (default: 10, opsi: 20, 40)")
+    parser.add_argument("--batch_size", type=int, default=16, 
+                        help="Batch size sesuai benchmark IndQNER README (default: 16)")
+    parser.add_argument("--learning_rate", type=float, default=2e-5, 
+                        help="Learning rate sesuai benchmark IndQNER README (default: 2e-5)")
+    parser.add_argument("--max_length", type=int, default=256, 
+                        help="Maksimal token sequence length sesuai IndQNER README (default: 256, opsi: 512)")
     args = parser.parse_args()
 
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
