@@ -413,3 +413,22 @@ Bagian ini mencatat setiap langkah teknis yang telah dikerjakan secara kronologi
   2. `src/audit_indqner_1_0.py`: Skrip audit komparasi matematis token-by-token dan distribusi label.
   3. `data/indqner_1.0/`: Direktori dataset final berisi `train.txt`, `dev.txt`, dan `test.txt`.
   4. `reports/indqner_1_0_audit.md`: Laporan resmi verifikasi integritas dan perbandingan dataset untuk Bab 3 & 4 Skripsi.
+
+### 📌 Log 10: Integrasi Resource Al-Qur'an Kemenag RI & Evaluasi Keselarasan Terjemahan
+* **Waktu Eksekusi**: 2026-10-20
+* **Status**: ✅ **SELESAI (COMPLETED)**
+* **Tujuan**: Mengintegrasikan korpus resmi Al-Qur'an dan Terjemahan Kementerian Agama RI dari repositori `dyazincahya/quran-json-kemenag` (`data/quran_kemenag/`) untuk mengevaluasi keabsahan ayat, mengukur keselarasan leksikal teks terjemahan pada IndQNER 1.0, serta memperkaya metadata Qurani (Teks Arab, Latin, Surah, Juz, Halaman).
+* **Hasil Kuantitatif Evaluasi Terjemahan**:
+  * **Cakupan Surah**: 8 Surah target terverifikasi lengkap (1.390 ayat resmi Kemenag).
+  * **Rata-rata Keselarasan Global**: **94.68%**.
+  * **Split `train.txt`**: Keselarasan leksikal **94.95%** (87.6% match presisi tinggi >= 85%).
+  * **Split `dev.txt`**: Keselarasan leksikal **92.76%** (80.4% match presisi tinggi >= 85%).
+  * **Split `test.txt`**: Keselarasan leksikal **94.71%** (85.3% match presisi tinggi >= 85%).
+* **Temuan Analisis Edisi (*Cross-Edition Analysis*)**:
+  * Teks terjemahan IndQNER 1.0 berasal dari edisi standar cetak Kemenag RI, sedangkan repositori `quran-json-kemenag` bersumber dari portal web modern `quran.kemenag.go.id` (Edisi Penyempurnaan 2019). Variasi kata (seperti kata sambung `Tetapi` ➔ `Namun`) mencerminkan pemutakhiran redaksional Kemenag, dengan substansi makna ayat 100% konsisten.
+* **Berkas yang Dihasilkan**:
+  1. `data/quran_kemenag/`: Repositori resmi Al-Qur'an Kemenag (114 Surah JSON lengkap dengan teks Arab, Latin, Terjemahan, dan Footnotes).
+  2. `src/07_evaluate_against_kemenag.py`: Pipeline otomatis evaluasi komparatif dan alignment metadata.
+  3. `data/mappings/indqner_1_0_kemenag_aligned.json` & `.csv`: Master dataset terpadu berisi pasangan teks IndQNER 1.0 dengan teks Arab, Latin, ID Surah, Nomor Ayat, Juz, Halaman, dan skor keselarasan.
+  4. `reports/kemenag_evaluation_report.md`: Laporan evaluasi ilmiah komparasi terjemahan untuk Bab 3 & 4 Skripsi.
+
