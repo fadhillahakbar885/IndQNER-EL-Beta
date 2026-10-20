@@ -385,11 +385,31 @@ Bagian ini mencatat setiap langkah teknis yang telah dikerjakan secara kronologi
     * `Angel`, `Event`, `Religion`: Akurasi sempurna **100.00%**.
 * **Temuan Ilmiah Kunci (*Golden Finding*)**:
   * Terjadinya penurunan presisi pada kelas `AstronomicalBody` di test set (100% ➔ 80%) merupakan **bukti empiris keberhasilan pengayaan**: Model Proposed berhasil mengenali entitas `langit` di ayat-ayat test set (seperti Surah 16:49, 16:52, 16:65), namun karena `test.txt` asli sengaja tidak diubah demi menjaga kemurnian benchmark, kata tersebut di ground-truth test set masih berstatus `O`. Hal ini membuktikan bahwa model hasil pengayaan kita justru **lebih peka dan mampu memperbaiki False Negatives yang ada pada dataset asli**.
+### 📌 Log 09: Restrukturisasi Format BIO "IndQNER 1.0" Berbasis Ayat Al-Qur'an (1 Teks = 1 Ayat)
+* **Waktu Eksekusi**: 2026-10-20
+* **Status**: ✅ **SELESAI (COMPLETED)**
+* **Latar Belakang & Masalah**:
+  * Pada dataset IndQNER awal, pembagian teks kalimat dilakukan berbasis tanda baca titik (`.`) atau tanda tanya (`?`). Akibatnya, satu ayat panjang (misalnya Surah 2:7, 2:19, 2:20) terpecah menjadi 2 hingga 5 "kalimat/sampel" yang dipisahkan baris kosong, sehingga konteks keutuhan ayat Al-Qur'an menjadi terfragmentasi.
+  * Korpus referensi `IndQEL` (`train_per_mention.tsv`, `val_per_mention.tsv`, `test_per_mention.tsv`) menetapkan standar bahwa satu baris (`sentence`) mewakili satu ayat Al-Qur'an utuh.
+* **Ketentuan & Kaidah Restrukturisasi IndQNER 1.0**:
+  1. **1 Teks = 1 Ayat Al-Qur'an**: Setiap unit sampel/teks didefinisikan secara utuh per ayat Al-Qur'an.
+  2. **Penyatuan Kalimat Internal**: Antar kalimat di dalam ayat yang sama disatukan secara sekuensial (baris kosong pemisah internal dihapus).
+  3. **Pemisah Antar Ayat**: Tepat satu baris kosong (`\n`) digunakan sebagai pemisah antar satu teks ayat dengan teks ayat berikutnya.
+  4. **Strict Zero Deletion & Zero Corruption**:
+     * 100% token kata (urutan, teks, jumlah) dipertahankan tanpa perubahan.
+     * 100% label entitas BIO (`B-...`, `I-...`, `O`) dipertahankan secara utuh.
+* **Hasil Kuantitatif Restrukturisasi**:
+  * **Split `train.txt`**:
+    * Jumlah Teks Awal: 2.496 kalimat ➔ **1.064 ayat (teks)** (-1.432 baris kosong internal disatukan).
+    * Total Token Kata: **49.076 token** (Preservasi 100.00%, Delta = 0).
+  * **Split `dev.txt`**:
+    * Jumlah Teks Awal: 312 kalimat ➔ **153 ayat (teks)** (-159 baris kosong internal disatukan).
+    * Total Token Kata: **6.895 token** (Preservasi 100.00%, Delta = 0).
+  * **Split `test.txt`**:
+    * Jumlah Teks Awal: 311 kalimat ➔ **177 ayat (teks)** (-134 baris kosong internal disatukan).
+    * Total Token Kata: **6.056 token** (Preservasi 100.00%, Delta = 0).
 * **Berkas yang Dihasilkan**:
-  * `reports/evaluation_results/benchmark_comparison.md`: Laporan tabel komparasi resmi siap pakai untuk Bab 4 Skripsi.
-
-
-
-
-
-
+  1. `src/06_format_indqner_1_0_per_verse.py`: Skrip pembentukan dataset IndQNER 1.0 berbasis pemetaan ayat IndQEL.
+  2. `src/audit_indqner_1_0.py`: Skrip audit komparasi matematis token-by-token dan distribusi label.
+  3. `data/indqner_1.0/`: Direktori dataset final berisi `train.txt`, `dev.txt`, dan `test.txt`.
+  4. `reports/indqner_1_0_audit.md`: Laporan resmi verifikasi integritas dan perbandingan dataset untuk Bab 3 & 4 Skripsi.
