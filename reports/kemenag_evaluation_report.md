@@ -5,8 +5,8 @@
 Laporan ini menyajikan hasil evaluasi komparatif antara teks terjemahan pada dataset **IndQNER 1.0** dengan teks resmi Al-Qur'an dan Terjemahan dari **Kementerian Agama RI (Kemenag)** yang diintegrasikan dari repositori `dyazincahya/quran-json-kemenag`.
 
 - **Total Surah Dianalisis:** 8 Surah (Al-Baqarah, Ali 'Imran, An-Nisa', Al-Ma'idah, Al-An'am, Al-A'raf, Yunus, An-Nahl).
-- **Tingkat Keselarasan Rata-rata Global:** **94.68%**.
-- **Validitas Ayat Terverifikasi:** **1,288 dari 1,393 teks (92.46%)** terbukti bersumber sah dari ayat Al-Qur'an Kemenag.
+- **Tingkat Keselarasan Rata-rata Global:** **98.01%**.
+- **Validitas Ayat Terverifikasi:** **1,345 dari 1,387 teks (96.97%)** terbukti bersumber sah dari ayat Al-Qur'an Kemenag.
 
 ---
 
@@ -14,9 +14,9 @@ Laporan ini menyajikan hasil evaluasi komparatif antara teks terjemahan pada dat
 
 | Split Dataset | Jumlah Ayat (Teks) | Rata-rata Keselarasan (Similarity) | Match >= 85% (Presisi Tinggi) | Match 70-84% (Variasi Edisi) | Validitas Qurani |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **`train.txt`** | 1,063 ayat | **94.95%** | 931 (87.6%) | 54 (5.1%) | **92.66% Sah** |
-| **`dev.txt`** | 153 ayat | **92.76%** | 123 (80.4%) | 13 (8.5%) | **88.89% Sah** |
-| **`test.txt`** | 177 ayat | **94.71%** | 151 (85.3%) | 16 (9.0%) | **94.35% Sah** |
+| **`train.txt`** | 1,050 ayat | **97.73%** | 999 (95.1%) | 15 (1.4%) | **96.57% Sah** |
+| **`dev.txt`** | 161 ayat | **98.41%** | 155 (96.3%) | 2 (1.2%) | **97.52% Sah** |
+| **`test.txt`** | 176 ayat | **99.29%** | 173 (98.3%) | 1 (0.6%) | **98.86% Sah** |
 
 ---
 

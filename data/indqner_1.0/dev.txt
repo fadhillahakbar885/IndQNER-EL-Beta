@@ -69,7 +69,6 @@ kamu	O
 dari	O
 negerimu	O
 .	O
-
 ”	O
 (	O
 Fir‘aun	B-Person
@@ -84,6 +83,7 @@ saran	O
 kamu	O
 ?	O
 ”	O
+
 Mereka	O
 (	O
 para	O
@@ -110,6 +110,7 @@ mengumpulkan	O
 para	O
 penyihir	O
 )	O
+
 (	O
 agar	O
 )	O
@@ -121,15 +122,14 @@ yang	O
 pandai	O
 kepadamu	O
 .	O
-
 ”	O
+
 Para	O
 penyihir	O
 datang	O
 kepada	O
 Fir‘aun	B-Person
 .	O
-
 Mereka	O
 berkata	O
 ,	O
@@ -147,6 +147,7 @@ kami	O
 menang	O
 ?	O
 ”	O
+
 Dia	O
 (	O
 Fir‘aun	B-Person
@@ -169,8 +170,8 @@ kedudukannya	O
 kepadaku	O
 )	O
 .	O
-
 ”	O
+
 Mereka	O
 (	O
 para	O
@@ -196,6 +197,7 @@ yang	O
 melemparkan	O
 ?	O
 ”	O
+
 Dia	O
 (	O
 Musa	B-Messenger
@@ -228,7 +230,6 @@ menjadikan	O
 mereka	O
 takut	O
 .	O
-
 Mereka	O
 memperlihatkan	O
 sihir	O
@@ -307,6 +308,7 @@ Tuhan	O
 semesta	O
 alam	O
 ,	O
+
 (	O
 yaitu	O
 )	O
@@ -315,8 +317,8 @@ Musa	B-Messenger
 dan	O
 Harun	B-Prophet
 .	O
-
 ”	O
+
 Fir‘aun	B-Person
 berkata	O
 ,	O
@@ -384,8 +386,8 @@ salib	O
 kamu	O
 semua	O
 .	O
-
 ”	O
+
 Mereka	O
 (	O
 para	O
@@ -454,8 +456,8 @@ diri	O
 kepada-Mu	O
 )	O
 .	O
-
 ”	O
+
 Para	O
 pemuka	O
 dari	O
@@ -518,8 +520,8 @@ penuh	O
 atas	O
 mereka	O
 .	O
-
 ”	O
+
 Musa	B-Messenger
 berkata	O
 kepada	O
@@ -565,8 +567,8 @@ orang-orang	O
 yang	O
 bertakwa	O
 .	O
-
 ”	O
+
 Mereka	O
 (	O
 kaum	O
@@ -616,8 +618,8 @@ melihat	O
 bagaimana	O
 perbuatanmu	O
 .	O
-
 ”	O
+
 Sungguh	O
 ,	O
 Kami	O
@@ -737,8 +739,8 @@ akan	O
 beriman	O
 kepadamu	O
 .	O
-
 ”	O
+
 Maka	O
 ,	O
 Kami	O
@@ -841,8 +843,8 @@ Israil	I-Person
 pergi	O
 bersamamu	O
 .	O
-
 ”	O
+
 Namun	O
 ,	O
 setelah	O
@@ -1024,8 +1026,8 @@ kaum	O
 yang	O
 bodoh	O
 .	O
-
 ”	O
+
 Sesungguhnya	O
 apa	O
 yang	O
@@ -1081,6 +1083,7 @@ itu	O
 )	O
 ?	O
 ”	O
+
 (	O
 Ingatlah	O
 wahai	O
@@ -1104,7 +1107,6 @@ yang	O
 paling	O
 buruk	O
 .	O
-
 Mereka	O
 membunuh	O
 anak-anakmu	O
@@ -1206,8 +1208,8 @@ yang	O
 berbuat	O
 kerusakan	O
 .	O
-
 ”	O
+
 Ketika	O
 Musa	B-Messenger
 datang	O
@@ -1333,8 +1335,8 @@ yang	O
 pertama-tama	O
 beriman	O
 .	O
-
 ”	O
+
 Dia	O
 berfirman	O
 ,	O
@@ -1383,8 +1385,8 @@ orang-orang	O
 yang	O
 bersyukur	O
 .	O
-
 ”	O
+
 Kami	O
 telah	O
 menuliskan	O
@@ -1437,8 +1439,8 @@ negeri	O
 orang-orang	O
 fasik	O
 .	O
-
 ”	O
+
 Aku	O
 akan	O
 memalingkan	O
@@ -1669,8 +1671,8 @@ orang-orang	O
 yang	O
 merugi	O
 .	O
-
 ”	O
+
 Ketika	O
 Musa	B-Messenger
 kembali	O
@@ -1776,8 +1778,8 @@ kaum	O
 yang	O
 zalim	O
 .	O
-
 ”	O
+
 Dia	O
 (	O
 Musa	B-Messenger
@@ -1807,8 +1809,8 @@ semua	O
 yang	O
 penyayang	O
 .	O
-
 ”	O
+
 Sesungguhnya	O
 orang-orang	O
 yang	O
@@ -2015,8 +2017,8 @@ sebaik-baik	O
 pemberi	O
 ampun	O
 .	O
-
 ”	O
+
 Tetapkanlah	O
 untuk	O
 kami	O
@@ -2078,8 +2080,8 @@ pada	O
 ayat-ayat	O
 Kami	O
 .	O
-
 ”	O
+
 (	O
 Yaitu	O
 ,	O
@@ -2256,8 +2258,8 @@ kamu	O
 mendapat	O
 petunjuk	O
 .	O
-
 ”	O
+
 Di	O
 antara	O
 kaum	O
@@ -2619,8 +2621,8 @@ agar	O
 mereka	O
 bertakwa	O
 .	O
-
 ”	O
+
 Maka	O
 ,	O
 setelah	O
@@ -2686,6 +2688,7 @@ yang	O
 hina	O
 !	O
 ”	O
+
 (	O
 Ingatlah	O
 )	O
@@ -2715,7 +2718,6 @@ sampai	O
 hari	B-Event
 Kiamat	I-Event
 .	O
-
 Sesungguhnya	O
 Tuhanmu	O
 sangat	O
@@ -2885,13 +2887,13 @@ mereka	O
 yang	O
 bertakwa	O
 .	O
-
 Maka	O
 ,	O
 tidakkah	O
 kamu	O
 mengerti	O
 ?	O
+
 Orang-orang	O
 yang	O
 berpegang	O
@@ -2982,8 +2984,8 @@ agar	O
 kamu	O
 bertakwa	O
 .	O
-
 ”	O
+
 (	O
 Ingatlah	O
 )	O
@@ -3057,6 +3059,7 @@ hal	O
 ini	O
 ,	O
 ”	O
+
 atau	O
 agar	O
 kamu	O
@@ -3089,7 +3092,6 @@ datang	O
 setelah	O
 mereka	O
 .	O
-
 Maka	O
 ,	O
 apakah	O
@@ -3104,6 +3106,7 @@ pelaku	O
 kebatilan	O
 ?	O
 ”	O
+
 Demikianlah	O
 Kami	O
 menjelaskan	O
@@ -3527,6 +3530,7 @@ akan	O
 mereka	O
 percayai	O
 ?	O
+
 Siapa	O
 saja	O
 yang	O
@@ -3623,6 +3627,7 @@ seakan-akan	O
 engkau	O
 mengetahuinya	O
 .	O
+
 Katakanlah	O
 (	O
 Nabi	O
@@ -3644,7 +3649,6 @@ manusia	O
 tidak	O
 mengetahui	O
 .	O
-
 ”	O
 Katakanlah	O
 (	O
@@ -3701,8 +3705,8 @@ kaum	O
 yang	O
 beriman	O
 .	O
-
 ”	O
+
 Dialah	O
 yang	O
 menciptakan	O
@@ -3786,8 +3790,8 @@ orang-orang	O
 yang	O
 bersyukur	O
 .	O
-
 ”	O
+
 Kemudian	O
 ,	O
 setelah	O
@@ -3854,6 +3858,7 @@ berhala	O
 sendiri	O
 diciptakan	O
 ?	O
+
 (	O
 Berhala	O
 )	O
@@ -4080,8 +4085,8 @@ mereka	O
 tidak	O
 melihat	O
 .	O
-
 ”	O
+
 Jadilah	O
 pemaaf	O
 ,	O
@@ -4239,8 +4244,8 @@ kaum	O
 yang	O
 beriman	O
 .	O
-
 ”	O
+
 Jika	O
 dibacakan	O
 Al-Qur’an	B-HolyBook
@@ -4325,6 +4330,7 @@ Al-Qur’an	B-HolyBook
 yang	O
 penuh	O
 hikmah	O
+
 Pantaskah	O
 menjadi	O
 suatu	O
@@ -4368,7 +4374,6 @@ sisi	O
 Tuhan	O
 mereka	O
 .	O
-
 ”	O
 Orang-orang	O
 kafir	O
@@ -4388,8 +4393,8 @@ penyihir	O
 yang	O
 nyata	O
 .	O
-
 ”	O
+
 Sesungguhnya	O
 Tuhanmu	O
 adalah	O
@@ -4446,6 +4451,7 @@ tidak	O
 mengambil	O
 pelajaran	O
 ?	O
+
 Hanya	O
 kepada-Nya	O
 kamu	O
@@ -4453,7 +4459,6 @@ semua	O
 akan	O
 kembali	O
 .	O
-
 Itu	O
 merupakan	O
 janji	O
@@ -4628,6 +4633,7 @@ terhadap	O
 ayat-ayat	O
 Kami	O
 ,	O
+
 mereka	O
 itu	O
 tempatnya	O
@@ -4930,6 +4936,7 @@ atau	O
 gantilah	O
 !	O
 ”	O
+
 Katakanlah	O
 (	O
 Nabi	O
@@ -4967,7 +4974,6 @@ jika	O
 mendurhakai	O
 Tuhanku	O
 .	O
-
 ”	O
 Katakanlah	O
 (	O
@@ -5009,13 +5015,13 @@ turun	O
 Al-Qur’an	B-HolyBook
 )	O
 .	O
-
 Apakah	O
 kamu	O
 tidak	O
 mengerti	O
 ?	O
 ”	O
+
 Maka	O
 ,	O
 siapakah	O
@@ -5209,8 +5215,8 @@ yang	O
 menunggu	O
 bersamamu	O
 .	O
-
 ”	O
+
 Apabila	O
 Kami	O
 memberikan	O
@@ -5353,8 +5359,8 @@ orang-orang	O
 yang	O
 bersyukur	O
 .	O
-
 ”	O
+
 Namun	O
 ,	O
 ketika	O
@@ -5543,6 +5549,7 @@ petunjuk	O
 .	O
 
 Bagi	O
+
 orang-orang	O
 yang	O
 berbuat	O
@@ -5589,7 +5596,6 @@ kekal	O
 di	O
 dalamnya	O
 .	O
-
 Orang-orang	O
 yang	O
 berbuat	O
@@ -5638,7 +5644,6 @@ para	O
 penghuni	O
 neraka	O
 .	O
-
 Mereka	O
 kekal	O
 di	O
@@ -5701,8 +5706,8 @@ pernah	O
 menyembah	O
 kami	O
 .	O
-
 ”	O
+
 Maka	O
 ,	O
 cukuplah	O
@@ -5727,8 +5732,8 @@ kepada	O
 kami	O
 )	O
 .	O
-
 ”	O
+
 Di	O
 sanalah	O
 (	O
@@ -5850,6 +5855,7 @@ Allah	B-Allah
 )	O
 ?	O
 ”	O
+
 Maka	O
 ,	O
 itulah	O
@@ -5860,7 +5866,6 @@ kamu	O
 yang	O
 sebenarnya	O
 .	O
-
 Tidak	O
 ada	O
 setelah	O
@@ -5869,7 +5874,6 @@ itu	O
 kecuali	O
 kesesatan	O
 .	O
-
 Maka	O
 ,	O
 bagaimana	O
@@ -5880,6 +5884,7 @@ dari	O
 kebenaran	O
 )	O
 ?	O
+
 Demikianlah	O
 ,	O
 telah	O
@@ -5958,6 +5963,7 @@ kebenaran	O
 )	O
 ?	O
 ”	O
+
 Katakanlah	O
 (	O
 Nabi	O
@@ -5985,7 +5991,6 @@ membimbing	O
 pada	O
 kebenaran	O
 .	O
-
 ”	O
 Maka	O
 ,	O
@@ -6020,13 +6025,13 @@ kamu	O
 memberi	O
 keputusan	O
 ?	O
+
 Kebanyakan	O
 mereka	O
 hanya	O
 mengikuti	O
 dugaan	O
 .	O
-
 Sesungguhnya	O
 dugaan	O
 itu	O
@@ -6157,8 +6162,8 @@ orang-orang	O
 yang	O
 benar	O
 .	O
-
 ”	O
+
 Bahkan	O
 ,	O
 mereka	O
@@ -6270,8 +6275,8 @@ yang	O
 kamu	O
 perbuat	O
 .	O
-
 ”	O
+
 Di	O
 antara	O
 mereka	O
@@ -6300,6 +6305,7 @@ mereka	O
 tidak	O
 mengerti	O
 ?	O
+
 Di	O
 antara	O
 mereka	O
@@ -6310,7 +6316,6 @@ melihat	O
 kepada	O
 engkau	O
 .	O
-
 Apakah	O
 engkau	O
 dapat	O
@@ -6326,6 +6331,7 @@ mereka	O
 tidak	O
 melihat	O
 ?	O
+
 Sesungguhnya	O
 Allah	B-Allah
 tidak	O
@@ -6530,6 +6536,7 @@ orang-orang	O
 benar	O
 ?	O
 ”	O
+
 Katakanlah	O
 (	O
 Nabi	O
@@ -6560,7 +6567,6 @@ yang	O
 Allah	B-Allah
 kehendaki	O
 .	O
-
 ”	O
 Setiap	O
 umat	O
@@ -6628,6 +6634,7 @@ pendurhaka	O
 itu	O
 ?	O
 ”	O
+
 Apabila	O
 azab	O
 itu	O
@@ -6658,6 +6665,7 @@ agar	O
 ia	O
 disegerakan	O
 ?	O
+
 Kemudian	O
 ,	O
 dikatakan	O
@@ -6674,7 +6682,6 @@ azab	O
 yang	O
 kekal	O
 .	O
-
 (	O
 Bukankah	O
 )	O
@@ -6697,6 +6704,7 @@ kamu	O
 usahakan	O
 ?	O
 ”	O
+
 Mereka	O
 menanyakan	O
 kepadamu	O
@@ -6739,8 +6747,8 @@ tidak	O
 dapat	O
 menghindar	O
 .	O
-
 ”	O
+
 Seandainya	O
 setiap	O
 orang	O
@@ -6897,8 +6905,8 @@ yang	O
 mereka	O
 kumpulkan	O
 .	O
-
 ”	O
+
 Katakanlah	O
 (	O
 Nabi	O
@@ -6924,7 +6932,6 @@ dan	O
 sebagiannya	O
 halal	O
 .	O
-
 ”	O
 Katakanlah	O
 ,	O
@@ -6947,6 +6954,7 @@ nama	O
 Allah	B-Allah
 ?	O
 ”	O
+
 Apakah	O
 dugaan	O
 orang-orang	O

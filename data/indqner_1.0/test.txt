@@ -239,7 +239,6 @@ kuat	O
 tentang	O
 ini	O
 .	O
-
 Pantaskah	O
 kamu	O
 mengatakan	O
@@ -251,6 +250,7 @@ tidak	O
 kamu	O
 ketahui	O
 ?	O
+
 Katakanlah	O
 (	O
 Nabi	O
@@ -269,8 +269,8 @@ tidak	O
 akan	O
 beruntung	O
 .	O
-
 ”	O
+
 (	O
 Bagi	O
 mereka	O
@@ -420,8 +420,8 @@ golongan	O
 orang-orang	O
 muslim	O
 .	O
-
 ”	O
+
 Mereka	O
 mendustakannya	O
 (	O
@@ -580,8 +580,8 @@ sihir	O
 yang	O
 nyata	O
 .	O
-
 ”	O
+
 Musa	B-Messenger
 berkata	O
 ,	O
@@ -615,8 +615,8 @@ tidaklah	O
 mendapat	O
 kemenangan	O
 .	O
-
 ”	O
+
 Mereka	O
 berkata	O
 ,	O
@@ -672,8 +672,8 @@ kepada	O
 kamu	O
 berdua	O
 .	O
-
 ”	O
+
 Fir‘aun	B-Person
 berkata	O
 (	O
@@ -692,6 +692,7 @@ yang	O
 ulung	O
 !	O
 ”	O
+
 Ketika	O
 para	O
 penyihir	O
@@ -712,6 +713,7 @@ kamu	O
 lemparkan	O
 !	O
 ”	O
+
 Setelah	O
 mereka	O
 melemparkan	O
@@ -730,7 +732,6 @@ bawa	O
 itulah	O
 sihir	O
 .	O
-
 Sesungguhnya	O
 Allah	B-Allah
 akan	O
@@ -835,8 +836,8 @@ kepada	O
 Allah	B-Allah
 )	O
 .	O
-
 ”	O
+
 Mereka	O
 pun	O
 berkata	O
@@ -875,8 +876,8 @@ kaum	O
 yang	O
 kafir	O
 .	O
-
 ”	O
+
 Telah	O
 Kami	O
 wahyukan	O
@@ -919,8 +920,8 @@ Gembirakanlah	O
 orang-orang	O
 mukmin	O
 .	O
-
 ”	O
+
 Musa	B-Messenger
 berkata	O
 ,	O
@@ -993,8 +994,8 @@ yang	O
 sangat	O
 pedih	O
 .	O
-
 ”	O
+
 Dia	O
 (	O
 Allah	B-Allah
@@ -1033,8 +1034,8 @@ yang	O
 tidak	O
 mengetahui	O
 .	O
-
 ”	O
+
 Kami	O
 jadikan	O
 Bani	B-Person
@@ -1101,8 +1102,8 @@ diri	O
 kepada-Nya	O
 )	O
 .	O
-
 ”	O
+
 Apakah	O
 (	O
 baru	O
@@ -1128,6 +1129,7 @@ yang	O
 berbuat	O
 kerusakan	O
 ?	O
+
 Pada	O
 hari	O
 ini	O
@@ -1145,7 +1147,6 @@ datang	O
 setelah	O
 kamu	O
 .	O
-
 Sesungguhnya	O
 kebanyakan	O
 manusia	O
@@ -1402,7 +1403,6 @@ bumi	B-AstronomicalBody
 seluruhnya	O
 beriman	O
 .	O
-
 Apakah	O
 engkau	O
 (	O
@@ -1418,6 +1418,7 @@ menjadi	O
 orang-orang	O
 mukmin	O
 ?	O
+
 Tidak	O
 seorang	O
 pun	O
@@ -1528,8 +1529,8 @@ yang	O
 menunggu	O
 bersamamu	O
 .	O
-
 ”	O
+
 Kemudian	O
 ,	O
 Kami	O
@@ -1600,8 +1601,8 @@ termasuk	O
 orang-orang	O
 mukmin	O
 .	O
-
 ”	O
+
 (	O
 Aku	O
 juga	O
@@ -1666,8 +1667,8 @@ termasuk	O
 orang-orang	O
 zalim	O
 .	O
-
 ”	O
+
 Jika	O
 Allah	B-Allah
 menimpakan	O
@@ -1777,8 +1778,8 @@ penanggung	O
 jawab	O
 kamu	O
 .	O
-
 ”	O
+
 Ikutilah	O
 apa	O
 yang	O
@@ -1868,8 +1869,8 @@ Maka	O
 bertakwalah	O
 kepada-Ku	O
 .	O
-
 ”	O
+
 Dia	O
 menciptakan	O
 langit	O
@@ -1878,7 +1879,6 @@ bumi	B-AstronomicalBody
 dengan	O
 hak	O
 .	O
-
 Mahatinggi	O
 Dia	O
 dari	O
@@ -2308,6 +2308,7 @@ tidak	O
 mengambil	O
 pelajaran	O
 ?	O
+
 Jika	O
 kamu	O
 menghitung	O
@@ -2321,7 +2322,6 @@ akan	O
 mampu	O
 menghitungnya	O
 .	O
-
 Sesungguhnya	O
 Allah	B-Allah
 benar-benar	O
@@ -2469,8 +2469,8 @@ Dongeng-dongeng	O
 orang	O
 terdahulu	O
 .	O
-
 ”	O
+
 (	O
 Ucapan	O
 mereka	O
@@ -2663,8 +2663,8 @@ telah	O
 kamu	O
 kerjakan	O
 .	O
-
 ”	O
+
 Maka	O
 ,	O
 masukilah	O
@@ -2746,6 +2746,7 @@ orang-orang	O
 yang	O
 bertakwa	O
 ,	O
+
 (	O
 yaitu	O
 )	O
@@ -2755,7 +2756,6 @@ yang	O
 mereka	O
 masuki	O
 .	O
-
 Sungai-sungai	O
 mengalir	O
 di	O
@@ -2824,8 +2824,8 @@ telah	O
 kamu	O
 kerjakan	O
 .	O
-
 ”	O
+
 Adakah	O
 yang	O
 mereka	O
@@ -2926,7 +2926,6 @@ ketetapan	O
 )	O
 -Nya	O
 .	O
-
 ”	O
 Demikianlah	O
 orang-orang	O
@@ -2936,7 +2935,6 @@ kafir	O
 sebelumnya	O
 berbuat	O
 .	O
-
 Bukankah	O
 kewajiban	O
 para	O
@@ -2950,6 +2948,7 @@ Allah	B-Allah
 dengan	O
 jelas	O
 ?	O
+
 Sungguh	O
 ,	O
 Kami	O
@@ -2990,7 +2989,6 @@ ditetapkan	O
 dalam	O
 kesesatan	O
 .	O
-
 Maka	O
 ,	O
 berjalanlah	O
@@ -3071,7 +3069,6 @@ akan	O
 membangkitkannya	O
 )	O
 .	O
-
 (	O
 Yang	O
 demikian	O
@@ -3090,6 +3087,7 @@ manusia	O
 tidak	O
 mengetahui	O
 ,	O
+
 supaya	O
 Dia	O
 menjelaskan	O
@@ -3161,7 +3159,6 @@ mereka	O
 di	O
 dunia	O
 .	O
-
 Pahala	O
 di	O
 akhirat	O
@@ -3173,6 +3170,7 @@ sekiranya	O
 mereka	O
 mengetahui	O
 ,	O
+
 (	O
 yaitu	O
 )	O
@@ -3461,8 +3459,8 @@ saja	O
 kamu	O
 takut	O
 .	O
-
 ”	O
+
 Hanya	O
 milik-Nya	O
 segala	O
@@ -3487,6 +3485,7 @@ Allah	B-Allah
 kamu	O
 bertakwa	O
 ?	O
+
 Segala	O
 nikmat	O
 yang	O
@@ -3498,7 +3497,6 @@ datangnya	O
 dari	O
 Allah	B-Allah
 .	O
-
 Kemudian	O
 ,	O
 apabila	O
@@ -3703,6 +3701,7 @@ mereka	O
 tetapkan	O
 itu	O
 !	O
+
 Orang-orang	O
 yang	O
 tidak	O
@@ -3724,7 +3723,6 @@ sifat	O
 Yang	B-Allah
 Mahatinggi	I-Allah
 .	O
-
 Dia	O
 Mahaperkasa	O
 lagi	O
@@ -4223,6 +4221,7 @@ Allah	B-Allah
 mereka	O
 ingkar	O
 ?	O
+
 Allah	B-Allah
 menjadikan	O
 bagimu	O
@@ -4252,7 +4251,6 @@ rezeki	O
 yang	O
 baik-baik	O
 .	O
-
 Mengapa	O
 terhadap	O
 yang	O
@@ -4267,6 +4265,7 @@ Allah	B-Allah
 mereka	O
 ingkar	O
 ?	O
+
 Mereka	O
 menyembah	O
 selain	O
@@ -4441,6 +4440,7 @@ jalan	O
 yang	O
 lurus	O
 ?	O
+
 Milik	O
 Allah	B-Allah
 (	O
@@ -4454,7 +4454,6 @@ dan	O
 di	O
 bumi	B-AstronomicalBody
 .	O
-
 Urusan	O
 kejadian	O
 Kiamat	B-Event
@@ -4816,8 +4815,8 @@ benar-benar	O
 para	O
 pendusta	O
 .	O
-
 ”	O
+
 Pada	O
 hari	O
 itu	O
@@ -5182,6 +5181,7 @@ harga	O
 murah	O
 .	O
 Sesungguhnya	O
+
 apa	O
 yang	O
 ada	O
@@ -5197,7 +5197,6 @@ jika	O
 kamu	O
 mengetahui	O
 .	O
-
 Apa	O
 yang	O
 ada	O
@@ -5422,8 +5421,8 @@ kepada	O
 Allah	B-Allah
 )	O
 .	O
-
 ”	O
+
 Sungguh	O
 ,	O
 Kami	O
@@ -6075,8 +6074,8 @@ termasuk	O
 orang-orang	O
 musyrik	O
 .	O
-
 ”	O
+
 Sesungguhnya	O
 (	O
 mengagungkan	O

@@ -14,13 +14,13 @@ Dataset **IndQNER 1.0** merupakan hasil revisi struktural terhadap dataset `indq
 
 | Split Dataset | Metrik | IndQNER Revised (Lama) | IndQNER 1.0 (Baru) | Perubahan Struktural | Status Preservasi |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **`train.txt`** | **Jumlah Teks / Sampel** | 2,495 kalimat | **1,063 ayat (teks)** | -1,432 batas kalimat internal | Rekonstruksi Ayat Sempurna |
+| **`train.txt`** | **Jumlah Teks / Sampel** | 2,495 kalimat | **1,050 ayat (teks)** | -1,445 batas kalimat internal | Rekonstruksi Ayat Sempurna |
 | | **Total Token Kata** | 49,076 token | **49,076 token** | 0 token berubah/hilang | **100.00% Identik** |
 | | **Distribusi Tag BIO** | 27 kelas tag | **27 kelas tag** | Identik 100% | **Lolos Validasi** |
-| **`dev.txt`** | **Jumlah Teks / Sampel** | 312 kalimat | **153 ayat (teks)** | -159 batas kalimat internal | Rekonstruksi Ayat Sempurna |
+| **`dev.txt`** | **Jumlah Teks / Sampel** | 312 kalimat | **161 ayat (teks)** | -151 batas kalimat internal | Rekonstruksi Ayat Sempurna |
 | | **Total Token Kata** | 6,895 token | **6,895 token** | 0 token berubah/hilang | **100.00% Identik** |
 | | **Distribusi Tag BIO** | 18 kelas tag | **18 kelas tag** | Identik 100% | **Lolos Validasi** |
-| **`test.txt`** | **Jumlah Teks / Sampel** | 311 kalimat | **177 ayat (teks)** | -134 batas kalimat internal | Rekonstruksi Ayat Sempurna |
+| **`test.txt`** | **Jumlah Teks / Sampel** | 311 kalimat | **176 ayat (teks)** | -135 batas kalimat internal | Rekonstruksi Ayat Sempurna |
 | | **Total Token Kata** | 6,056 token | **6,056 token** | 0 token berubah/hilang | **100.00% Identik** |
 | | **Distribusi Tag BIO** | 20 kelas tag | **20 kelas tag** | Identik 100% | **Lolos Validasi** |
 
